@@ -1,6 +1,6 @@
 ---
 title: Getting started
-pageTitle: CacheAdvance - Never miss the cache again.
+pageTitle: Web3Games - Next generation of blockchains designed for gaming and digital collectibles.
 description: Cache every single thing your app could ever do ahead of time, so your code never even has to run at all.
 ---
 
@@ -8,7 +8,7 @@ Learn how to build your project on Web3Games Chain it is easy. {% .lead %}
 
 {% quick-links %}
 
-{% quick-link title="Installation" icon="installation" href="/" description="Step-by-step guides to setting up your system and installing the library." /%}
+{% quick-link title="Installation" icon="installation" href="/docs/installation" description="Step-by-step guides to setting up your environment and installing the library." /%}
 
 {% quick-link title="Architecture guide" icon="presets" href="/" description="Learn how the internals work and contribute." /%}
 
