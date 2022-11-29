@@ -23,32 +23,10 @@ const navigation = [
     title: 'Start',
     links: [
       { title: 'Run a local node ', href: '/docs/run-local-node' },
-      // {
-      //   title: 'Predicting user behavior',
-      //   href: '/docs/predicting-user-behavior',
-      // },
-      // { title: 'Basics of time-travel', href: '/docs/basics-of-time-travel' },
-      // {
-      //   title: 'Introduction to string theory',
-      //   href: '/docs/introduction-to-string-theory',
-      // },
       { title: 'Troubleshoot Rust issues', href: '/docs/troubleshoot-rust-issues' },
     ],
   },
-  // {
-  //   title: 'Advanced guides',
-  //   links: [
-  //     { title: 'Writing plugins', href: '/docs/writing-plugins' },
-  //     { title: 'Neuralink integration', href: '/docs/neuralink-integration' },
-  //     { title: 'Temporal paradoxes', href: '/docs/temporal-paradoxes' },
-  //     { title: 'Testing', href: '/docs/testing' },
-  //     { title: 'Compile-time caching', href: '/docs/compile-time-caching' },
-  //     {
-  //       title: 'Predictive data generation',
-  //       href: '/docs/predictive-data-generation',
-  //     },
-  //   ],
-  // },
+
   // {
   //   title: 'API reference',
   //   links: [
@@ -58,6 +36,22 @@ const navigation = [
   //     { title: 'CacheAdvance.regret()', href: '/docs/cacheadvance-regret' },
   //   ],
   // },
+  {
+    title: 'Plugins',
+    links: [
+      { title: 'Web3Games-JS', href: '/docs/web3games-js' },
+      { title: 'Web3Games-CLI', href: '/docs/web3games-cli' },
+    ],
+  },
+  {
+    title: 'Ecosystem',
+    links: [
+      { title: 'Web3Games-Explorer', href: '/docs/web3games-explorer' },
+      { title: 'Web3Games-Dex', href: '/docs/web3games-dex' },
+      { title: 'Web3Games-MarketPlaces', href: '/docs/web3games-marketplaces' },
+      { title: 'Web3Games-Launchpad', href: '/docs/web3games-launchpad' },
+    ],
+  },
   {
     title: 'Contributing',
     links: [
