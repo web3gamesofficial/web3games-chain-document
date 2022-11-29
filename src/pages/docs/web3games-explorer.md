@@ -5,5 +5,5 @@ description: use Web3Games Explorer.
 
 ## Description
 
-CLI tool to work with Web3Games chain
+work with Web3Games chain
 

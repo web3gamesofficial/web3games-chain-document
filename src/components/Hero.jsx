@@ -9,16 +9,18 @@ import blurCyanImage from '@/images/blur-cyan.png'
 import blurIndigoImage from '@/images/blur-indigo.png'
 
 const codeLanguage = 'javascript'
-const code = `export default {
-  strategy: 'predictive',
-  engine: {
-    cpus: 12,
-    backups: ['./storage/cache.wtf'],
-  },
-}`
+const code = `
+import { Web3GamesApi } from '@web3games-js/api';
+const Web3GamesApi = await Web3GamesApi.create();
+const chain = await Web3GamesApi.chain();
+const nodeName = await Web3GamesApi.nodeName();
+const nodeVersion = await Web3GamesApi.nodeVersion();
+const genesis = Web3GamesApi.genesisHash.toHex();
+console.log(chain,nodeName,nodeVersion,genesis);
+`
 
 const tabs = [
-  { name: 'cache-advance.config.js', isActive: true },
+  { name: 'main.js', isActive: true },
   { name: 'package.json', isActive: false },
 ]
 
