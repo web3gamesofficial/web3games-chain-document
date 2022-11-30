@@ -5,5 +5,11 @@ description: use Web3Games Explorer.
 
 ## Description
 
-work with Web3Games chain
+Web3Games Explorer is a Very powerful Web3Games Chain browser, 
+also supports chain function, 
+data analysis and query of various formats of WASM && EVM && Move contracts
 
+
+### Use
+
+For developers we provide two types of

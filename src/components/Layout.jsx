@@ -26,7 +26,14 @@ const navigation = [
       { title: 'Troubleshoot Rust issues', href: '/docs/troubleshoot-rust-issues' },
     ],
   },
-
+  {
+    title: 'Smart Contract',
+    links: [
+      { title: 'Solidity', href: '/docs/web3games-solidity' },
+      { title: 'Ink', href: '/docs/web3games-ink' },
+      { title: 'Move', href: '/docs/web3games-move' },
+    ],
+  },
   // {
   //   title: 'API reference',
   //   links: [
@@ -46,10 +53,12 @@ const navigation = [
   {
     title: 'Ecosystem',
     links: [
+      { title: 'Web3Games-Faucet', href: '/docs/web3games-faucet' },
       { title: 'Web3Games-Explorer', href: '/docs/web3games-explorer' },
       { title: 'Web3Games-Dex', href: '/docs/web3games-dex' },
       { title: 'Web3Games-MarketPlaces', href: '/docs/web3games-marketplaces' },
       { title: 'Web3Games-Launchpad', href: '/docs/web3games-launchpad' },
+      { title: 'Web3Games-MultiPay', href: '/docs/web3games-multipay' },
     ],
   },
   {
